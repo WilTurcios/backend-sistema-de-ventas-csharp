@@ -9,3 +9,4 @@ C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.DTO\ob
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.DTO\obj\Debug\net7.0\refint\SistemaVenta.DTO.dll
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.pdb
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.DTO\obj\Debug\net7.0\ref\SistemaVenta.DTO.dll
+C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.DTO\obj\Debug\net7.0\SistemaVenta.DTO.sourcelink.json

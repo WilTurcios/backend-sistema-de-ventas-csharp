@@ -19,3 +19,4 @@ C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.BLL\bi
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Utility.pdb
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.csproj.AssemblyReference.cache
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.BLL\obj\Debug\net7.0\SistemaV.93BC7325.Up2Date
+C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.sourcelink.json

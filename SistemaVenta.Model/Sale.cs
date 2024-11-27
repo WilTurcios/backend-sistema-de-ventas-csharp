@@ -13,6 +13,8 @@ public partial class Sale
 
     public int? DocumentNumberId { get; set; }
 
+    public DateTime? RegisterDate { get; set; }
+
     public virtual DocumentNumber? DocumentNumber { get; set; }
 
     public virtual ICollection<SaleDetails> SaleDetails { get; } = new List<SaleDetails>();

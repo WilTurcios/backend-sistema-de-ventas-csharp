@@ -177,6 +177,11 @@ public partial class DbsalesContext : DbContext
                 .HasColumnType("decimal(10, 2)")
                 .HasColumnName("total");
 
+            entity.Property(e => e.RegisterDate)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("register_date");
+
             entity.HasOne(d => d.DocumentNumber).WithMany(p => p.Sales)
                 .HasForeignKey(d => d.DocumentNumberId)
                 .HasConstraintName("FK__sales__document___5070F446");

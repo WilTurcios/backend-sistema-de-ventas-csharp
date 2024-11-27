@@ -12,3 +12,4 @@ C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.Model\
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.pdb
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.genruntimeconfig.cache
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.Model\obj\Debug\net7.0\ref\SistemaVenta.Model.dll
+C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.Model\obj\Debug\net7.0\SistemaVenta.Model.sourcelink.json

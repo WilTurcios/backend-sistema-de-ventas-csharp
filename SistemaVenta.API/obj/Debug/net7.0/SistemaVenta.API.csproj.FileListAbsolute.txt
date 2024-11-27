@@ -85,3 +85,6 @@ C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.API\bi
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.pdb
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.pdb
 C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.pdb
+C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.sourcelink.json
+C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Wilber's-Laptop\Desktop\dev\csharp\APISistemaVentas\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
