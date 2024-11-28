@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SistemaVenta.BLL.Services;
+using SistemaVenta.BLL.Services.Contract;
 using SistemaVenta.DAL.DBContext;
 using SistemaVenta.DAL.Repositories;
 using SistemaVenta.DAL.Repositories.Contract;
@@ -27,6 +29,14 @@ namespace SistemaVenta.IOC
             services.AddScoped<ISaleRepository, SaleRepository>();
 
             services.AddAutoMapper(typeof(AutoMapperProfile));
+
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IRoleService, RoleService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IDashboardService, DashboardService>();
+            services.AddScoped<IMenuItemService, MenuItemService>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ISaleService, SaleService>();
         }
     }
 }

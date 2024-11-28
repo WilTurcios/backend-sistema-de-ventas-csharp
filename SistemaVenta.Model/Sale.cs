@@ -11,11 +11,9 @@ public partial class Sale
 
     public decimal? Total { get; set; }
 
-    public int? DocumentNumberId { get; set; }
-
     public DateTime? RegisterDate { get; set; }
 
-    public virtual DocumentNumber? DocumentNumber { get; set; }
+    public string? DocumentNumber { get; set; }
 
     public virtual ICollection<SaleDetails> SaleDetails { get; } = new List<SaleDetails>();
 }

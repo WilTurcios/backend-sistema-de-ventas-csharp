@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace SistemaVenta.DTO
 {
-    internal class DashboardDTO
+    public class DashboardDTO
     {
-        public string? TotalSales { get; set; }
+        public int? TotalSales { get; set; }
         public string? TotalIncome { get; set; }
+        public int? TotalProducts { get; set; }
         public List<WeekSalesDTO>? SalesLastWeek {  get; set; }
     }
 }

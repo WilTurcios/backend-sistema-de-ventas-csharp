@@ -10,11 +10,4 @@ public partial class DocumentNumber
     public int LastNumber { get; set; }
 
     public DateTime? RegisterDate { get; set; }
-
-    public virtual ICollection<Sale> Sales { get; } = new List<Sale>();
-
-    public static implicit operator DocumentNumber(string v)
-    {
-        throw new NotImplementedException();
-    }
 }

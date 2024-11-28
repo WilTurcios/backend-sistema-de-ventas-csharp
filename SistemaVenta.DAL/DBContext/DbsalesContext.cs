@@ -163,12 +163,16 @@ public partial class DbsalesContext : DbContext
 
         modelBuilder.Entity<Sale>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__sales__3213E83FB5EB05AF");
+            entity.HasKey(e => e.Id).HasName("FK__sales_det__sale___5AEE82B9");
 
             entity.ToTable("sales");
 
             entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.DocumentNumberId).HasColumnName("document_number_id");
+
+            entity.Property(e => e. DocumentNumber)
+                .HasMaxLength(40)
+                .IsUnicode(false)
+                .HasColumnName("document_number");
             entity.Property(e => e.PaymentMethod)
                 .HasMaxLength(50)
                 .IsUnicode(false)
@@ -182,14 +186,11 @@ public partial class DbsalesContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("register_date");
 
-            entity.HasOne(d => d.DocumentNumber).WithMany(p => p.Sales)
-                .HasForeignKey(d => d.DocumentNumberId)
-                .HasConstraintName("FK__sales__document___5070F446");
         });
 
         modelBuilder.Entity<SaleDetails>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__sales_de__3213E83F7EFD6A0F");
+            entity.HasKey(e => e.Id).HasName("PK__sales_de__3213E83F0134217B");
 
             entity.ToTable("sales_details");
 
@@ -206,11 +207,11 @@ public partial class DbsalesContext : DbContext
 
             entity.HasOne(d => d.Product).WithMany(p => p.SalesDetails)
                 .HasForeignKey(d => d.ProductId)
-                .HasConstraintName("FK__sales_det__produ__5441852A");
+                .HasConstraintName("FK__sales_det__produ__5BE2A6F2");
 
             entity.HasOne(d => d.Sale).WithMany(p => p.SaleDetails)
                 .HasForeignKey(d => d.SaleId)
-                .HasConstraintName("FK__sales_det__sale___534D60F1");
+                .HasConstraintName("FK__sales_det__sale___5AEE82B9");
         });
 
         modelBuilder.Entity<User>(entity =>
