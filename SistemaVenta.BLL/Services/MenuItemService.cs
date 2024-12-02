@@ -34,12 +34,11 @@ namespace SistemaVenta.BLL.Services
 
             try
             {
-                IQueryable<MenuItem> resultTb = (
-                    from u in userTb
-                    join rm in roleMenuTb on u.RoleId equals rm.RoleId
-                    join mi in menuItemTb on rm.MenuItemId equals mi.Id
-                    select mi
-                );
+                IQueryable<MenuItem> resultTb = (from u in userTb
+                                                 join rm in roleMenuTb on u.RoleId equals rm.RoleId
+                                                 join mi in menuItemTb on rm.MenuItemId equals mi.Id
+                                                 where u.Id == userId
+                                                 select mi).Distinct();
 
                 var menuItemList = resultTb.ToList();
                 return _mapper.Map<List<MenuItemDTO>>( menuItemList );
