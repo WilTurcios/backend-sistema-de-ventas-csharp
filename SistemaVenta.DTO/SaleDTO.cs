@@ -14,7 +14,7 @@ namespace SistemaVenta.DTO
 
         public string? Total { get; set; }
 
-        public string? DocumentNumberId { get; set; }
+        public string? DocumentNumber { get; set; }
         
         public string? RegisterDate { get; set; }
 

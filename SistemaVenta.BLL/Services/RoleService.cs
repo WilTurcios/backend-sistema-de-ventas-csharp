@@ -22,7 +22,7 @@ namespace SistemaVenta.BLL.Services
             _mapper = mapper;
         }
 
-        public async Task<List<RoleDTO>> getRoles()
+        public async Task<List<RoleDTO>> GetRoles()
         {
             try
             {

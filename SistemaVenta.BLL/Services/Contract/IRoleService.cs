@@ -9,6 +9,6 @@ namespace SistemaVenta.BLL.Services.Contract
 {
     public interface IRoleService
     {
-        Task<List<RoleDTO>> getRoles();
+        Task<List<RoleDTO>> GetRoles();
     }
 }
